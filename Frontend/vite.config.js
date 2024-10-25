@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': {
+      '/p': {
         target: 'https://rinku-new-test.onrender.com',
         changeOrigin: true,
         secure: false,
