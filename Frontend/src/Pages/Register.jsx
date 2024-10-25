@@ -23,7 +23,7 @@ const Register = () => {
     try {
       await axios
         .post(
-          "https://rinku-new-test.onrender.com/api/v1/user/patient/register",
+          "/api/v1/user/patient/register",
           { firstName, lastName, email, phone, nic, dob, gender, password },
           {
             withCredentials: true,

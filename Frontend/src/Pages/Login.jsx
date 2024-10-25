@@ -18,7 +18,7 @@ const Login = () => {
     try {
       await axios
         .post(
-          "https://rinku-new-test.onrender.com/api/v1/user/login",
+          "/api/v1/user/login",
           { email, password, confirmPassword, role: "Patient" },
           {
             withCredentials: true,
